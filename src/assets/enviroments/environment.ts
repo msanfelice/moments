@@ -1,5 +1,6 @@
+
 export const enviroment = {
-production:false,
+production: false,
 baseApiUrl: 'http://localhost:3333/',
 
 };
