@@ -18,13 +18,11 @@ export class MessagesService {
       }, 4000);
 
          }   
-  clear() {
+   clear() {
     this.message='';
     
   }
       
-
-
-      
+    
     
 }
