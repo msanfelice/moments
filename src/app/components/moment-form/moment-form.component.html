@@ -9,7 +9,7 @@
           />
     
              <div *ngIf="title.invalid && formDir.submitted" class="validation-error">
-             <p *ngIf="title.errors?.['required']"> O Titulo e obrigatorio.</p>
+             <p *ngIf="title.errors?.['required']"> O Titulo obrigatorio.</p>
              </div>
      </div>
     
@@ -18,7 +18,7 @@
         <textarea placeholder="O que aconteceu la ?" formControlName="description" required=""></textarea> 
         
             <div *ngIf="description.invalid && formDir.submitted" class="validation-error">
-            <p   *ngIf="description.errors?.['required']"> A Descricao obrigatoria.</p>
+            <p   *ngIf="description.errors?.['required']"> A Descricao  obrigatoria.</p>
             </div>
 
     </div>
